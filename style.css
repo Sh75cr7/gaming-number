@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .gameBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .playerOneBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #14acd2;
+    padding: 40px 100px;
+  }
+  
+  .playerOneInput,
+  .playertwoInput {
+    padding: 10px 30px;
+  }
+  
+  .startBtn,
+  .GuessBtn {
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+  .playerOneError {
+    display: none;
+  }
+  
+  .playerOneHolder {
+    display: block;
+  }
+  /* player two box desing */
+  .playertwoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #9eca1a;
+    padding: 40px 100px;
+  }
+  
+  .playertwoError {
+    display: none;
+  }
+  
+  .playerTwoHolder {
+    display: none;
+  }
+  .startAgain {
+    display: none;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
